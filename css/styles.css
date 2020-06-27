@@ -1,0 +1,33 @@
+
+.navbar-custom {
+  background-color: #512b58;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+  color: #fafafa;
+}
+
+.nav-item .nav-link,
+.nav-item .nav-text{
+  color: #fafafa;
+
+}
+
+
+
+
+#main{
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+#footer{
+  padding-top:20px;
+  padding-bottom: 20px;
+  background-color: #79bac1;
+}
+body {
+  background-color: #f1f3f4;
+font-family: 'Roboto';font-size: 22px;
+text-align: center;
+}
