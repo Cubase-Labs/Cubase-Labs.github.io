@@ -17,7 +17,7 @@
   border: 3px solid black;
   border-radius: 10px;
   margin-left: 10px;
-  background-color: lightblue;
+  background-color: #AAAAAA;
 }
 
 .main2
@@ -75,7 +75,7 @@ nav a:hover{
   background-color: #79bac1;
 }
 body {
-  background-color: powderblue;
+  background-color: #FFFFFF;
   /*background-color: #f1f3f4;**/
 font-family: 'Roboto';font-size: 22px;
 text-align: center;
