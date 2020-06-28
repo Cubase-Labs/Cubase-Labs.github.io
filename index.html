@@ -19,6 +19,9 @@
 
 </head>
 <body>
+  <div id = "Header">
+  	<a href="LogoDark.jpg"><img id = "logo" src = "LogoDark.jpg"></a>
+  </div>
   <section id="title">
   <nav class="navbar navbar-expand-lg navbar-custom">
     <a class="navbar-brand" href="#">CUBASE
@@ -44,20 +47,31 @@
     </ul>
   </div>
 </section>
-
 <section id="main">
+<div class="row">
+  <div class="col-md-9">
+    <div class="main1">
 
-  <h1>Welcome to Cubase-Labs</h1>
+    <h1>Welcome to Cubase-Labs</h1>
 
 
-  <div id="center" class="markdown-body">
+    <div id="center" class="markdown-body">
       <h2>Hello World!</h2>
       <p>Sorry but we have been slightly busy with the redesign and thus you have to see this page. We'll soon figure out the new publishing toolchain and be back online, with significant changes to the functionality. In the meantime, drop us an email on cubaselabs@gmail.com.
 
       <p>Regards</p>
       <p>Cubase-Labs</p>
+    </div>
+    </div>
+
   </div>
 
+  <div class="col-md-3">
+    <div class="main2">
+    <h1>Sections</h1>
+  </div>
+</div>
+</div>
 </section>
 
 <section id="footer">
@@ -80,5 +94,20 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Script for hiding header after scroll down -->
+<!--
+<script type="text/javascript">
+	var pre = window.pageYOffset;
+	window.onscroll = function() {
+  var cur = window.pageYOffset;
+  if (pre > cur) {
+    document.getElementById("Header").style.top = "0";
+  } else {
+    document.getElementById("Header").style.top = "-110px";
+  }
+  pre = cur;
+}
+</script>-->
+
 </body>
 </html>

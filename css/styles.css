@@ -1,16 +1,61 @@
+#logo
+{
+  height: 95px;
+  margin: auto;
+}
+
+#Header
+{
+  background-color: black;
+  margin: 10px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.main1
+{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: lightblue;
+}
+
+.main2
+{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: lightblue;
+}
 
 .navbar-custom {
-  background-color: #512b58;
+  /*#512b58**/
+  background-color: #0a97b0;
+  margin: 10px;
+  border-radius: 5px;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text{
   color: #fafafa;
+  padding: 5px;
 }
 
 .nav-item .nav-link,
 .nav-item .nav-text{
   color: #fafafa;
+}
 
+ul li a:hover
+{
+  color: blue;
+  background-color: black;
+  border-radius: 5px;
+}
+
+nav a:hover{
+  color: blue;
+  background-color: black;
+  border-radius: 5px;
 }
 
 .icons{
@@ -20,7 +65,7 @@
 }
 
 #main{
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 500px;
 }
 
@@ -30,7 +75,8 @@
   background-color: #79bac1;
 }
 body {
-  background-color: #f1f3f4;
+  background-color: powderblue;
+  /*background-color: #f1f3f4;**/
 font-family: 'Roboto';font-size: 22px;
 text-align: center;
 }
