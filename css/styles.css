@@ -12,12 +12,19 @@
   border-radius: 5px;
 }
 
+.btn_icon
+{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
 .main1
 {
-  border: 3px solid black;
-  border-radius: 10px;
   margin-left: 10px;
-  background-color: lightblue;
+  color: white;
+  /*background-color: lightblue;**/
 }
 
 .navbar-custom {
@@ -53,6 +60,7 @@ nav a:hover{
 .icons{
   
   padding-left: 10px;
+  height: 35px;
 
 }
 
@@ -66,10 +74,10 @@ nav a:hover{
   width: 100%;
   padding-top:20px;
   padding-bottom: 20px;
-  background-color: #79bac1;
+  background-color: black;  /*#79bac1**/
 }
 body {
-  background-color: white;
+  background-image: linear-gradient(black, powderblue);
   /*background-color: #f1f3f4;**/
 font-family: 'Roboto';font-size: 22px;
 text-align: center;
