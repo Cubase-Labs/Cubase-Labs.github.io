@@ -12,6 +12,7 @@
   border-radius: 5px;
 }
 
+
 .btn_icon
 {
 
@@ -23,15 +24,11 @@
 
 .main1
 {
-/*
-  border: 3px solid black;
-  border-radius: 10px;
-  margin-left: 10px;
-  background-color: #AAAAAA;
-*/
+
 
 margin-left: 10px;
 color: white;
+
 }
 
 .main2
@@ -43,9 +40,12 @@ color: white;
 }
 
 .navbar-custom {
-  /*#512b58**/
+ 
   background: linear-gradient(90deg, rgba(18,16,55,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  /*background-color: #0a97b0;*/
+
+
+  background-color: #0a97b0;
+
   margin: 10px;
   border-radius: 5px;
 }
@@ -60,12 +60,14 @@ color: white;
   color: #fafafa;
 }
 
+
 ul li a:hover
 {
   color: blue;
   background-color: black;
   border-radius: 5px;
 }
+
 
 nav a:hover{
   color: blue;
@@ -92,25 +94,11 @@ nav a:hover{
 }
 body {
 
-
-  background-color: #FFFFFF;
-
   background: rgb(18,16,55);
 background: linear-gradient(90deg, rgba(18,16,55,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
-  /*
-  background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  
+font-family: 'Roboto';font-size: 22px;
+text-align: center;
 
-*/
-  /*background-color: #f1f3f4;
-    background-image: linear-gradient(black, powderblue);*/
-
-
-/*font-family: 'Roboto';font-size: 22px;
-text-align: center;*/
-}
-
-h1,p{
-  text-align: center;
 }
