@@ -20,14 +20,6 @@
   background-color: lightblue;
 }
 
-.main2
-{
-  border: 3px solid black;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: lightblue;
-}
-
 .navbar-custom {
   /*#512b58**/
   background-color: #0a97b0;
@@ -70,12 +62,14 @@ nav a:hover{
 }
 
 #footer{
+  bottom: 0;
+  width: 100%;
   padding-top:20px;
   padding-bottom: 20px;
   background-color: #79bac1;
 }
 body {
-  background-color: powderblue;
+  background-color: white;
   /*background-color: #f1f3f4;**/
 font-family: 'Roboto';font-size: 22px;
 text-align: center;
