@@ -19,13 +19,16 @@
 
 </head>
 <body>
+  <div id = "Header">
+  	<a href="LogoDark.jpg"><img id = "logo" src = "LogoDark.jpg"></a>
+  </div>
   <section id="title">
   <nav class="navbar navbar-expand-lg navbar-custom">
-    <a class="navbar-brand" href="#">CUBASE
+    <!--<a class="navbar-brand" href="#">CUBASE
       <!--<img id="logo" src="images/cubaselogo.jpeg">-->
       <!--<img src="images/logo.png" width="180" height="150" class="d-inline-block align-top" alt="" loading="lazy">-->
   </a>
-
+-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleDemo2" aria-controls="navbarToggleDemo2" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,27 +47,35 @@
     </ul>
   </div>
 </section>
-
 <section id="main">
+<div class="row">
+  <div class="col-md-12">
+    <div class="main1">
 
-  <h1>Welcome to Cubase-Labs</h1>
+    <h1>Welcome to Cubase-Labs</h1>
 
 
-  <div id="center" class="markdown-body">
-      <h2>Hello World!</h2>
-      <p>Sorry but we have been slightly busy with the redesign and thus you have to see this page. We'll soon figure out the new publishing toolchain and be back online, with significant changes to the functionality. In the meantime, drop us an email on cubaselabs@gmail.com.
+    <div id="center" class="markdown-body">
+
+      <p>Sorry but we have been slightly busy with the redesign and thus you have to see this page. We'll soon figure out the new publishing toolchain and be back online, with significant changes to the functionality. In the meantime, drop us an email on cubaselabs@gmail.com.</p>
 
       <p>Regards</p>
       <p>Cubase-Labs</p>
+    </div>
+    </div>
+
   </div>
 
 </section>
 
 <section id="footer">
-  <footer>Contact us at <br>
-    <a href="https://mail.google.com"> <img class="icons" src="https://img.icons8.com/ios-filled/30/000000/gmail.png"/ ></a>
-  <a href="https://github.com/Cubase-Labs/Cubase-Labs.github.io"><img class="icons" src="https://img.icons8.com/fluent/30/000000/github.png"/></a>
-<a href="https://www.linkedin.com"><img class="icons" src="https://img.icons8.com/ios-filled/30/000000/linkedin.png"/></a>
+<!--  <footer>Feel free to connect with us <br>
+    <a href="https://mail.google.com"> <img class="icons" src="https://img.icons8.com/ios-filled/30/000000/gmail.png"/ ></a> -->
+    <section id ="footer">
+  <footer><span style="color: white">Contact us at </span><br>
+    <a href="https://mail.google.com"><!-- <img class="icons" src="https://img.icons8.com/ios-filled/30/000000/gmail.png"/ >--> <img class="icons" src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a></a>
+  <a href="https://github.com/Cubase-Labs"><img class="icons" src="https://img.icons8.com/fluent/30/000000/github.png"/></a>
+<a href="https://www.linkedin.com/company/cubase-labs"><img class="icons" src="https://img.icons8.com/ios-filled/30/000000/linkedin.png"/></a>
 
 
   </footer>
@@ -80,5 +91,20 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Script for hiding header after scroll down -->
+<!--
+<script type="text/javascript">
+	var pre = window.pageYOffset;
+	window.onscroll = function() {
+  var cur = window.pageYOffset;
+  if (pre > cur) {
+    document.getElementById("Header").style.top = "0";
+  } else {
+    document.getElementById("Header").style.top = "-110px";
+  }
+  pre = cur;
+}
+</script>-->
+
 </body>
 </html>
